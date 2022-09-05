@@ -1,0 +1,38 @@
+
+Competing risks with nested data THOMAS HAS CODE
+adapted calibration curve
+Predictions showing impact of additional test
+Prediction models depend on current/previous treatment assignment
+Predictions conditional on the treatment that we currently decide about
+Does causal inference result in a more accurate prediction model? Can we correct for treatment assignment and make tool more accurate?
+Improving existing prediction models using by adjusting for trends over time, like year of treatment. Hidden issues with contemporary prediction models
+Prediction models always based on historic data.
+Need to model difference between new and old patients based on covariates not in models, based on treatment assignment and treatment effects.
+Calendar year is perfect predictor and MI is the ideal outcome
+what form of extrapolation would have worked best for us years ago.
+Predictions are valid after decision already made
+We want a tool that predicts given you haven’t already decided.
+Interaction between treatment and variable left out of the model.
+Can improve upon conditional outcome model
+HOW TO PREDICT THE OUTCOME(S) OF A TREATMENT THAT IS NOT YET ADMINISTERED AND NOT RANDOMLY ASSIGNED.
+Motivated by 8a and 8b
+We investigate when and whether it is important to consider the treatment assignment
+HOW TO ADJUST FOR CALENDAR YEAR EFFECTS
+
+Income predicts treatment choice and outcome success probability.
+?need to have interactions between outcome and all interveneable variable
+
+
+
+This is for setting where predictions are provided for at least 2 treatment strategies.
+All models are miss-edified.
+We need to know the reason why in order to provide the fix.
+important variable(s) not measured.
+Important variable measured but not included.
+Wrong paramerization.
+Cohort not representative of population of interest for target application
+All models are out of date.
+Treatments have improved.
+treatment assignment was not modeled
+dropout and other forms of noncompliance are not considered
+Time dependent covariates need to be included in censoring adjustment
