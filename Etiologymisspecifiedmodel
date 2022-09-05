@@ -1,16 +1,14 @@
+# Predictions showing impact of additional test
+  ** Prediction models depend on current/previous treatment assignment
+  ** Predictions conditional on the treatment that we currently decide about
+  ** Does causal inference result in a more accurate prediction model? Can we correct for treatment assignment and make tool more accurate?
+  ** Improving existing prediction models using by adjusting for trends over time, like year of treatment. Hidden issues with contemporary prediction models
+  ** Prediction models always based on historic data.
+  ** Need to model difference between new and old patients based on covariates not in models, based on treatment assignment and treatment effects.
+  ** Calendar year is perfect predictor and MI is the ideal outcome
+  ** what form of extrapolation would have worked best for us years ago.
+   ** Predictions are valid after decision already made
 
-Competing risks with nested data THOMAS HAS CODE
-adapted calibration curve
-Predictions showing impact of additional test
-Prediction models depend on current/previous treatment assignment
-Predictions conditional on the treatment that we currently decide about
-Does causal inference result in a more accurate prediction model? Can we correct for treatment assignment and make tool more accurate?
-Improving existing prediction models using by adjusting for trends over time, like year of treatment. Hidden issues with contemporary prediction models
-Prediction models always based on historic data.
-Need to model difference between new and old patients based on covariates not in models, based on treatment assignment and treatment effects.
-Calendar year is perfect predictor and MI is the ideal outcome
-what form of extrapolation would have worked best for us years ago.
-Predictions are valid after decision already made
 We want a tool that predicts given you haven’t already decided.
 Interaction between treatment and variable left out of the model.
 Can improve upon conditional outcome model
